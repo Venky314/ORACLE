@@ -19,3 +19,11 @@ SELECT * FROM EMP order by salary asc;
 */
 
 SELECT  * FROM EMP ORDER BY job_id ASC,employee_id DESC;
+
+/*
+5. Display all the unique job groups in the descending order?  
+
+*/
+SELECT UNIQUE(JOB_ID) FROM EMP ORDER BY JOB_ID DESC;
+
+
